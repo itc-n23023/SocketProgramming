@@ -32,5 +32,7 @@ def main():
     client_socket.close()
 
 if __name__ == '__main__':
+    IP_ADDR, PORT = input()
+    main(IP_ADDR, int(PORT))
     main()
 
